@@ -23,7 +23,7 @@ class _homepageState extends State<homepage> {
           children: [
             Container(
               padding: EdgeInsets.only(
-                top: 30,
+                top: 40,
                 left: 40,
                 right: 40,),
                 child: Center(
@@ -38,7 +38,9 @@ class _homepageState extends State<homepage> {
                     ),
                   ),
                 ),
-              ),
+              ), SizedBox(
+              height: 30,
+            ),
             SingleChildScrollView(
               child: Container(
                 padding: EdgeInsets.only(
